@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.header{
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 6px;
+    font-family: Arial;
+
+}
+
+.header h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+
+
+
+
+.tab{
+    display: flex;
+    gap: 6px;
+
+}
+.tab_content{
+    overflow-y: scroll;
+    height: 486px;
+    max-height: 500px;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-size: 20px;
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab_content h1{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tab_content img {
+    display: block;
+    height: 120px;
+    margin: 0 auto;
+}
+
+
+
+.tabs .tab_items{
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 120px;
+    padding: 1px; 
+   
+}
+
+.tabs .tab_items .tab_item{
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 2px 4px;
+    text-align: center;
+    margin-bottom: 1px;
+    cursor: pointer;
+
+}
+
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.footer{
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.footer .footer_link{
+    width: 30px;
+    margin: 30px auto;
+}
+
+
+.footer .footer_link a img{
+    width: 30px;
+    height: 30px;
+    
+
+}
+
+.active{
+    background-color: red;
+}
